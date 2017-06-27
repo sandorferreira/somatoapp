@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3236E9B61F02D69B00B00681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236E9B51F02D69B00B00681 /* AppDelegate.swift */; };
+		3236E9B81F02D69B00B00681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236E9B71F02D69B00B00681 /* ViewController.swift */; };
+		3236E9BB1F02D69B00B00681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3236E9B91F02D69B00B00681 /* Main.storyboard */; };
+		3236E9BD1F02D69B00B00681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3236E9BC1F02D69B00B00681 /* Assets.xcassets */; };
+		3236E9C01F02D69B00B00681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3236E9BE1F02D69B00B00681 /* LaunchScreen.storyboard */; };
+		3236E9CB1F02D69B00B00681 /* SomatoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236E9CA1F02D69B00B00681 /* SomatoAppTests.swift */; };
+		3236E9D61F02D69B00B00681 /* SomatoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236E9D51F02D69B00B00681 /* SomatoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3236E9C71F02D69B00B00681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3236E9AA1F02D69B00B00681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3236E9B11F02D69B00B00681;
+			remoteInfo = SomatoApp;
+		};
+		3236E9D21F02D69B00B00681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3236E9AA1F02D69B00B00681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3236E9B11F02D69B00B00681;
+			remoteInfo = SomatoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3236E9B21F02D69B00B00681 /* SomatoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomatoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236E9B51F02D69B00B00681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3236E9B71F02D69B00B00681 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3236E9BA1F02D69B00B00681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3236E9BC1F02D69B00B00681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3236E9BF1F02D69B00B00681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3236E9C11F02D69B00B00681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3236E9C61F02D69B00B00681 /* SomatoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomatoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236E9CA1F02D69B00B00681 /* SomatoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomatoAppTests.swift; sourceTree = "<group>"; };
+		3236E9CC1F02D69B00B00681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3236E9D11F02D69B00B00681 /* SomatoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomatoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236E9D51F02D69B00B00681 /* SomatoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomatoAppUITests.swift; sourceTree = "<group>"; };
+		3236E9D71F02D69B00B00681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3236E9AF1F02D69B00B00681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236E9C31F02D69B00B00681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236E9CE1F02D69B00B00681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3236E9A91F02D69B00B00681 = {
+			isa = PBXGroup;
+			children = (
+				3236E9B41F02D69B00B00681 /* SomatoApp */,
+				3236E9C91F02D69B00B00681 /* SomatoAppTests */,
+				3236E9D41F02D69B00B00681 /* SomatoAppUITests */,
+				3236E9B31F02D69B00B00681 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3236E9B31F02D69B00B00681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3236E9B21F02D69B00B00681 /* SomatoApp.app */,
+				3236E9C61F02D69B00B00681 /* SomatoAppTests.xctest */,
+				3236E9D11F02D69B00B00681 /* SomatoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3236E9B41F02D69B00B00681 /* SomatoApp */ = {
+			isa = PBXGroup;
+			children = (
+				3236E9B51F02D69B00B00681 /* AppDelegate.swift */,
+				3236E9B71F02D69B00B00681 /* ViewController.swift */,
+				3236E9B91F02D69B00B00681 /* Main.storyboard */,
+				3236E9BC1F02D69B00B00681 /* Assets.xcassets */,
+				3236E9BE1F02D69B00B00681 /* LaunchScreen.storyboard */,
+				3236E9C11F02D69B00B00681 /* Info.plist */,
+			);
+			path = SomatoApp;
+			sourceTree = "<group>";
+		};
+		3236E9C91F02D69B00B00681 /* SomatoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3236E9CA1F02D69B00B00681 /* SomatoAppTests.swift */,
+				3236E9CC1F02D69B00B00681 /* Info.plist */,
+			);
+			path = SomatoAppTests;
+			sourceTree = "<group>";
+		};
+		3236E9D41F02D69B00B00681 /* SomatoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3236E9D51F02D69B00B00681 /* SomatoAppUITests.swift */,
+				3236E9D71F02D69B00B00681 /* Info.plist */,
+			);
+			path = SomatoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3236E9B11F02D69B00B00681 /* SomatoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236E9DA1F02D69B00B00681 /* Build configuration list for PBXNativeTarget "SomatoApp" */;
+			buildPhases = (
+				3236E9AE1F02D69B00B00681 /* Sources */,
+				3236E9AF1F02D69B00B00681 /* Frameworks */,
+				3236E9B01F02D69B00B00681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SomatoApp;
+			productName = SomatoApp;
+			productReference = 3236E9B21F02D69B00B00681 /* SomatoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3236E9C51F02D69B00B00681 /* SomatoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236E9DD1F02D69B00B00681 /* Build configuration list for PBXNativeTarget "SomatoAppTests" */;
+			buildPhases = (
+				3236E9C21F02D69B00B00681 /* Sources */,
+				3236E9C31F02D69B00B00681 /* Frameworks */,
+				3236E9C41F02D69B00B00681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3236E9C81F02D69B00B00681 /* PBXTargetDependency */,
+			);
+			name = SomatoAppTests;
+			productName = SomatoAppTests;
+			productReference = 3236E9C61F02D69B00B00681 /* SomatoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3236E9D01F02D69B00B00681 /* SomatoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236E9E01F02D69B00B00681 /* Build configuration list for PBXNativeTarget "SomatoAppUITests" */;
+			buildPhases = (
+				3236E9CD1F02D69B00B00681 /* Sources */,
+				3236E9CE1F02D69B00B00681 /* Frameworks */,
+				3236E9CF1F02D69B00B00681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3236E9D31F02D69B00B00681 /* PBXTargetDependency */,
+			);
+			name = SomatoAppUITests;
+			productName = SomatoAppUITests;
+			productReference = 3236E9D11F02D69B00B00681 /* SomatoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3236E9AA1F02D69B00B00681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sandor Ferreira da Silva";
+				TargetAttributes = {
+					3236E9B11F02D69B00B00681 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PW5498NH3B;
+						ProvisioningStyle = Automatic;
+					};
+					3236E9C51F02D69B00B00681 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PW5498NH3B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3236E9B11F02D69B00B00681;
+					};
+					3236E9D01F02D69B00B00681 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PW5498NH3B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3236E9B11F02D69B00B00681;
+					};
+				};
+			};
+			buildConfigurationList = 3236E9AD1F02D69B00B00681 /* Build configuration list for PBXProject "SomatoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3236E9A91F02D69B00B00681;
+			productRefGroup = 3236E9B31F02D69B00B00681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3236E9B11F02D69B00B00681 /* SomatoApp */,
+				3236E9C51F02D69B00B00681 /* SomatoAppTests */,
+				3236E9D01F02D69B00B00681 /* SomatoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3236E9B01F02D69B00B00681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236E9C01F02D69B00B00681 /* LaunchScreen.storyboard in Resources */,
+				3236E9BD1F02D69B00B00681 /* Assets.xcassets in Resources */,
+				3236E9BB1F02D69B00B00681 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236E9C41F02D69B00B00681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236E9CF1F02D69B00B00681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3236E9AE1F02D69B00B00681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236E9B81F02D69B00B00681 /* ViewController.swift in Sources */,
+				3236E9B61F02D69B00B00681 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236E9C21F02D69B00B00681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236E9CB1F02D69B00B00681 /* SomatoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236E9CD1F02D69B00B00681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236E9D61F02D69B00B00681 /* SomatoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3236E9C81F02D69B00B00681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3236E9B11F02D69B00B00681 /* SomatoApp */;
+			targetProxy = 3236E9C71F02D69B00B00681 /* PBXContainerItemProxy */;
+		};
+		3236E9D31F02D69B00B00681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3236E9B11F02D69B00B00681 /* SomatoApp */;
+			targetProxy = 3236E9D21F02D69B00B00681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3236E9B91F02D69B00B00681 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3236E9BA1F02D69B00B00681 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3236E9BE1F02D69B00B00681 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3236E9BF1F02D69B00B00681 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3236E9D81F02D69B00B00681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3236E9D91F02D69B00B00681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3236E9DB1F02D69B00B00681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PW5498NH3B;
+				INFOPLIST_FILE = SomatoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotoapp.SomatoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3236E9DC1F02D69B00B00681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PW5498NH3B;
+				INFOPLIST_FILE = SomatoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotoapp.SomatoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3236E9DE1F02D69B00B00681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PW5498NH3B;
+				INFOPLIST_FILE = SomatoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotoapp.SomatoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SomatoApp.app/SomatoApp";
+			};
+			name = Debug;
+		};
+		3236E9DF1F02D69B00B00681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PW5498NH3B;
+				INFOPLIST_FILE = SomatoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotoapp.SomatoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SomatoApp.app/SomatoApp";
+			};
+			name = Release;
+		};
+		3236E9E11F02D69B00B00681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PW5498NH3B;
+				INFOPLIST_FILE = SomatoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotoapp.SomatoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SomatoApp;
+			};
+			name = Debug;
+		};
+		3236E9E21F02D69B00B00681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PW5498NH3B;
+				INFOPLIST_FILE = SomatoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotoapp.SomatoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SomatoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3236E9AD1F02D69B00B00681 /* Build configuration list for PBXProject "SomatoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236E9D81F02D69B00B00681 /* Debug */,
+				3236E9D91F02D69B00B00681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3236E9DA1F02D69B00B00681 /* Build configuration list for PBXNativeTarget "SomatoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236E9DB1F02D69B00B00681 /* Debug */,
+				3236E9DC1F02D69B00B00681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3236E9DD1F02D69B00B00681 /* Build configuration list for PBXNativeTarget "SomatoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236E9DE1F02D69B00B00681 /* Debug */,
+				3236E9DF1F02D69B00B00681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3236E9E01F02D69B00B00681 /* Build configuration list for PBXNativeTarget "SomatoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236E9E11F02D69B00B00681 /* Debug */,
+				3236E9E21F02D69B00B00681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3236E9AA1F02D69B00B00681 /* Project object */;
+}
