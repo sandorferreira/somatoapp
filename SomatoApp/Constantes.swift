@@ -14,3 +14,5 @@ let colorBackground = UIColor(colorLiteralRed: 43.0/255.0, green: 43.0/255.0, bl
 
 let colorThemeYellow = UIColor(colorLiteralRed: 1.0, green: 208.0/255.0, blue: 54.0/255.0, alpha: 1.0)
 
+var fotoString = "homem_1"
+

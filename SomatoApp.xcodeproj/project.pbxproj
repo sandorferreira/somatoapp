@@ -11,6 +11,11 @@
 		3205C3F51F54F3CA00C4B742 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3205C3F41F54F3CA00C4B742 /* Constantes.swift */; };
 		3205C3F81F5501B500C4B742 /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3205C3F71F5501B500C4B742 /* Pessoa.swift */; };
 		3205C3FA1F55065400C4B742 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3205C3F91F55065400C4B742 /* CameraViewController.swift */; };
+		3217862E1F5E10C600F05AB2 /* CameraOptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217862D1F5E10C600F05AB2 /* CameraOptViewController.swift */; };
+		321786311F5E1DF700F05AB2 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217862F1F5E1DF700F05AB2 /* View1.swift */; };
+		321786321F5E1DF700F05AB2 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321786301F5E1DF700F05AB2 /* View1.xib */; };
+		321786351F5E1E2900F05AB2 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321786331F5E1E2900F05AB2 /* View2.swift */; };
+		321786361F5E1E2900F05AB2 /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321786341F5E1E2900F05AB2 /* View2.xib */; };
 		3236E9B61F02D69B00B00681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236E9B51F02D69B00B00681 /* AppDelegate.swift */; };
 		3236E9B81F02D69B00B00681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236E9B71F02D69B00B00681 /* ViewController.swift */; };
 		3236E9BB1F02D69B00B00681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3236E9B91F02D69B00B00681 /* Main.storyboard */; };
@@ -42,6 +47,11 @@
 		3205C3F41F54F3CA00C4B742 /* Constantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		3205C3F71F5501B500C4B742 /* Pessoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
 		3205C3F91F55065400C4B742 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		3217862D1F5E10C600F05AB2 /* CameraOptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOptViewController.swift; sourceTree = "<group>"; };
+		3217862F1F5E1DF700F05AB2 /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		321786301F5E1DF700F05AB2 /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		321786331F5E1E2900F05AB2 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		321786341F5E1E2900F05AB2 /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
 		3236E9B21F02D69B00B00681 /* SomatoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomatoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3236E9B51F02D69B00B00681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3236E9B71F02D69B00B00681 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +97,7 @@
 			children = (
 				3205C3F21F54F2B600C4B742 /* CamposViewController.swift */,
 				3205C3F91F55065400C4B742 /* CameraViewController.swift */,
+				3217862C1F5E10B000F05AB2 /* Camera Options */,
 			);
 			name = "View-Controllers";
 			sourceTree = "<group>";
@@ -97,6 +108,18 @@
 				3205C3F71F5501B500C4B742 /* Pessoa.swift */,
 			);
 			name = Objetos;
+			sourceTree = "<group>";
+		};
+		3217862C1F5E10B000F05AB2 /* Camera Options */ = {
+			isa = PBXGroup;
+			children = (
+				3217862D1F5E10C600F05AB2 /* CameraOptViewController.swift */,
+				3217862F1F5E1DF700F05AB2 /* View1.swift */,
+				321786301F5E1DF700F05AB2 /* View1.xib */,
+				321786331F5E1E2900F05AB2 /* View2.swift */,
+				321786341F5E1E2900F05AB2 /* View2.xib */,
+			);
+			name = "Camera Options";
 			sourceTree = "<group>";
 		};
 		3236E9A91F02D69B00B00681 = {
@@ -265,6 +288,8 @@
 			files = (
 				3236E9C01F02D69B00B00681 /* LaunchScreen.storyboard in Resources */,
 				3236E9BD1F02D69B00B00681 /* Assets.xcassets in Resources */,
+				321786321F5E1DF700F05AB2 /* View1.xib in Resources */,
+				321786361F5E1E2900F05AB2 /* View2.xib in Resources */,
 				3236E9BB1F02D69B00B00681 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,10 +316,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3205C3F81F5501B500C4B742 /* Pessoa.swift in Sources */,
+				321786351F5E1E2900F05AB2 /* View2.swift in Sources */,
 				3236E9B81F02D69B00B00681 /* ViewController.swift in Sources */,
+				321786311F5E1DF700F05AB2 /* View1.swift in Sources */,
 				3205C3F51F54F3CA00C4B742 /* Constantes.swift in Sources */,
 				3236E9B61F02D69B00B00681 /* AppDelegate.swift in Sources */,
 				3205C3F31F54F2B600C4B742 /* CamposViewController.swift in Sources */,
+				3217862E1F5E10C600F05AB2 /* CameraOptViewController.swift in Sources */,
 				3205C3FA1F55065400C4B742 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

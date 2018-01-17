@@ -25,7 +25,11 @@
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Para tirar fotos</string>
+	<string>Permissão para usar a câmera</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Permissão para salvar fotos na biblioteca</string>
+	<key>UIFileSharingEnabled</key>
+	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

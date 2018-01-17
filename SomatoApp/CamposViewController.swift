@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CamposViewController: UIViewController {
+class CamposViewController: UIViewController, UIScrollViewDelegate {
     
     // From Storyboard
     
@@ -33,6 +33,7 @@ class CamposViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollView.keyboardDismissMode = .onDrag
+        scrollView.delegate = self
 
         updateDesignables()
         isHomem = true
@@ -53,41 +54,39 @@ class CamposViewController: UIViewController {
     
     
     @IBAction func continuar(_ sender: UIButton) {
-        print("pressionou continuar")
+        
         
         let textFieldIndex = isAnyTextFieldEmpty()
         
         if textFieldIndex != 0 {
-//            let alert = UIAlertController(title: "Ops!", message: "Você deve preencher todos os dados antes de continuar", preferredStyle: .alert)
-//            alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-//            self.present(alert, animated: true, completion: nil)
+            let alert = UIAlertController(title: "Ops!", message: "Você deve preencher todos os dados antes de continuar", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+            self.present(alert, animated: true, completion: nil)
             (self.view.viewWithTag(textFieldIndex) as? UITextField)?.becomeFirstResponder()
         } else {
             let nome = nameTF.text
             var CONST_SEXO = "HOMEM"
             if let peso = Double(pesoTF.text!) {
                 if let altura = Double(alturaTF.text!) {
+                    let nascimento = datePicker.date
                     if isHomem == false {
                         CONST_SEXO = "MULHER"
-                        let nascimento = datePicker.date
-                        
-                        let pessoa = Pessoa(nome: nome, nascimento: nascimento, sexo: CONST_SEXO, altura: altura, peso: peso)
-                        let cameraController = self.storyboard?.instantiateViewController(withIdentifier: "cameraController") as! CameraViewController
-                        cameraController.pessoa = pessoa
-                        //cameraController.navigationController?.isNavigationBarHidden = true
-                        self.navigationController?.pushViewController(cameraController, animated: true)
-                        
                     }
+                    let pessoa = Pessoa(nome: nome, nascimento: nascimento, sexo: CONST_SEXO, altura: altura, peso: peso)
+                    let cameraController = self.storyboard?.instantiateViewController(withIdentifier: "cameraController") as! CameraViewController
+                    cameraController.pessoa = pessoa
+                    cameraController.navigationController?.isNavigationBarHidden = true
+                    self.navigationController?.pushViewController(cameraController, animated: true)
                 } else {
-//                    let alert = UIAlertController(title: "Ops!", message: "Valor de altura inválido", preferredStyle: .alert)
-//                    alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-//                    self.present(alert, animated: true, completion: nil)
+                    let alert = UIAlertController(title: "Ops!", message: "Valor de altura inválido", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
                 }
                 
             } else {
-//                let alert = UIAlertController(title: "Ops!", message: "Valor do peso inválido", preferredStyle: .alert)
-//                alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-//                self.present(alert, animated: true, completion: nil)
+                let alert = UIAlertController(title: "Ops!", message: "Valor do peso inválido", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+                self.present(alert, animated: true, completion: nil)
             }
         }
         
@@ -124,6 +123,10 @@ class CamposViewController: UIViewController {
         }
         
         return 0
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        view.endEditing(true)
     }
     
     
